@@ -18,7 +18,7 @@ $(function(){
 
 	});
 
-	// $('.carousel').carousel('cycle')
+	$('.carousel').carousel('cycle');
 
 
 // way points
