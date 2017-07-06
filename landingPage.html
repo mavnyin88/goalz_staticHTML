@@ -9,17 +9,23 @@
   <link rel="stylesheet" href="assets/css/custom.css">
   <style>
     body{
+      padding:0;
+      margin:0;
+    }
+    section{
+      display:table;
+      width:100vw;
       height:100vh;
-      position:relative;
       background:repeating-linear-gradient(-30deg,#3e3c30,#3e3c30 3px,#3e3c30 2px,#22362a 6px);
     }
     section .wrapper{
-      position:absolute;
-      left:50%;
-      top:50%;
-      transform:translate(-50%,-50%);
+      display:table-cell;
+      vertical-align:middle;
+    }
+    section .wrapper .wrapper-content{
       width:350px;
       height:auto;
+      margin:0 auto;
     }
     section .wrapper img{
       width:100%;
@@ -56,14 +62,13 @@
       font-size:14px;
     }
     @media screen and (max-width: 568px){
-      section{
-      }
-
       section .wrapper{
+        vertical-align:top;
+      }
+      section .wrapper .wrapper-content{
         width:100%;
         padding:15px;
       }
-
     }
   </style>
   <title>Document</title>
@@ -71,6 +76,7 @@
 <body>
   <section>
     <div class="wrapper">
+      <div class="wrapper-content">
       <img src="assets/img/landingPageLogo.png">
       <h4>Website coming soon!</h4>
       <div class="line"></div>
@@ -80,6 +86,7 @@
         Apply now
       </button>
       </div>
+    </div>
   </section>
 </body>
 </html>
