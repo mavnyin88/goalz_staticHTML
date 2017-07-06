@@ -46,6 +46,9 @@ p.lead{
 p{
 	margin: 0 0 15px;
 }
+a{
+	text-decoration: none;
+}
 a:link,a:visited{
 	color:#dd5638;
 }
@@ -329,7 +332,7 @@ footer{
 		);
 }
 footer a:link, footer a:visited {
-	color:white;
+	color:#fff;
 }
 footer a:hover{
 	color:#dd5638;
@@ -398,4 +401,45 @@ section#section-2 .row .col-sm-4 .overFlow img:hover, section#section-4 .row .co
 @media screen and (min-width: 768px)
 bootstrap.min.css:5
 .carousel-caption {
+}
+
+
+
+
+
+
+
+
+
+/* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Why the name goalz*/
+#about-name{
+	margin:100px 0 0 0;
+}
+#about-name,#goal-and-mantra,#target-list,#national-team{
+	width:100%;
+	height:auto;
+}
+#goal-and-mantra{
+	background:#F5EB9E;
+}
+#target-list{
+	background:#EE453B;
+	color:#fff;
+}
+#about-name .row, #goal-and-mantra .row, #target-list .row, #national-team .row{
+	padding:50px 11% 50px 11%;
 }
