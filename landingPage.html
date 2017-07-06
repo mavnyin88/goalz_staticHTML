@@ -13,9 +13,6 @@
       position:relative;
       background:repeating-linear-gradient(-30deg,#3e3c30,#3e3c30 3px,#3e3c30 2px,#22362a 6px);
     }
-    section{
-      padding:0;
-    }
     section .wrapper{
       position:absolute;
       left:50%;
@@ -60,11 +57,11 @@
     }
     @media screen and (max-width: 568px){
       section{
-        margin:0;
-        padding:30px;
       }
 
       section .wrapper{
+        top:0;
+        transform:translate(-50%,0);
         width:100%;
         padding:15px;
       }
