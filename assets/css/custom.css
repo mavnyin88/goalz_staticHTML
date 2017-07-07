@@ -416,9 +416,14 @@ bootstrap.min.css:5
 
 
 
-
-
-
+/* Accordion Bootstrap */
+.panel-group .panel{
+	border-radius: 0;
+	cursor: pointer;
+}
+a:hover{
+	color:#dd5638;
+}
 
 
 
@@ -429,10 +434,10 @@ bootstrap.min.css:5
 #about-name{
 	margin:100px 0 0 0;
 }
-#about-name,#goal-and-mantra,#target-list,#national-team{
+/*#about-name,#goal-and-mantra,#target-list,#national-team{
 	width:100%;
 	height:auto;
-}
+}*/
 #goal-and-mantra{
 	background:#F5EB9E;
 }
@@ -442,4 +447,31 @@ bootstrap.min.css:5
 }
 #about-name .row, #goal-and-mantra .row, #target-list .row, #national-team .row{
 	padding:50px 11% 50px 11%;
+}
+
+
+/* Dog Hause Page */
+#dog_haus_hero {
+	width:100%;
+	height:auto;
+	height:400px;
+	background:#ccc;
+		margin-top:100px;
+}
+#dog_haus_hero .row, #about_dog_haus .row, #map-location .row{
+	padding:50px 11% 50px 11%;
+}
+#dog_haus_hero .dog_haus_img{
+}
+#dog_haus_hero .dog_haus_img h1{
+	font-family:Tungsten-Medium;
+	font-size:55px;
+	padding-left:15px;
+}
+#map{
+	height:500px;
+}
+
+section{
+	width:100%;
 }
