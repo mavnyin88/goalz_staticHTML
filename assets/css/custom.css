@@ -263,15 +263,23 @@ a.navbar-brand{
 	-o-transition: 0.23s ease-in-out;
 	transition: 0.23s ease-in-out;
 }
+.btn-default{
+	color:#fff;
+}
 .btn-default:hover{
 	background-color:#EE453B;
 	border-color:#F5EB9E;
-	color:#F5EB9E;
+	color:pink;
 }
 .btn-default:visited{
 	background-color:#EE453B;
 	border-color:#F5EB9E;
 	color:#F5EB9E;
+}
+.btn-default:active,.btn-default:focus,.btn-default:active:hover{
+	color: #fff;
+	background-color: #EE453B;
+	border-color: #F5EB9E;
 }
 
 /* section 2 */
@@ -456,7 +464,7 @@ a:hover{
 	height:auto;
 	height:400px;
 	background:#ccc;
-		margin-top:100px;
+	margin-top:100px;
 }
 #dog_haus_hero .row, #about_dog_haus .row, #map-location .row{
 	padding:50px 11% 50px 11%;
@@ -474,4 +482,31 @@ a:hover{
 
 section{
 	width:100%;
+}
+
+/* Join the family */
+#join-the-family{
+	height:400px;
+	background:#EE453B;
+	margin-top:100px;
+}
+#join-the-family .row, #were-hiring .row{
+	padding:50px 11% 50px 11%;
+}
+#were-hiring .row .col-sm-12 h2{
+	margin-bottom:20px;
+	margin-top:0;
+}
+
+#join-the-family .row{
+		padding-bottom:0;
+}
+
+.hero{
+	font-family:Tungsten-Medium;
+	font-size:55px;
+	padding-left:15px;
+}
+p.lead{
+	font-size:18px;
 }
