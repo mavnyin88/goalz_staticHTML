@@ -63,6 +63,10 @@ border:0px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
+.bullet-color{
+	color:#EE453B;
+	padding-right:5px;
+}
 button,input,.btn,a.btn{
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -425,6 +429,18 @@ bootstrap.min.css:5
 
 
 /* Accordion Bootstrap */
+.panel-default>.panel-heading{
+	color:#fff;
+	background-color:#3e3c30;
+	border-color:#F5EB9E;
+}
+.panel-default{
+	border-color:#F5EB9E;
+}
+.panel-heading{
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+}
 .panel-group .panel{
 	border-radius: 0;
 	cursor: pointer;
@@ -447,11 +463,19 @@ a:hover{
 	height:auto;
 }*/
 #goal-and-mantra{
-	background:#F5EB9E;
+	background:#EE453B;
+	background-image:url(../img/pattern.png);
+	background-size: cover;
+	color:#fff;
 }
 #target-list{
 	background:#EE453B;
+	background-image:url('../img/food-collage.jpg');
+	background-size: cover;
 	color:#fff;
+}
+#national-team{
+	background-color: #F5EB9E;
 }
 #about-name .row, #goal-and-mantra .row, #target-list .row, #national-team .row{
 	padding:50px 11% 50px 11%;
@@ -464,6 +488,9 @@ a:hover{
 	height:auto;
 	height:400px;
 	background:#ccc;
+	background-image: url('../img/dog-haus-clucka-hero.jpg');
+	background-size: cover;
+	background-position: center center;
 	margin-top:100px;
 }
 #dog_haus_hero .row, #about_dog_haus .row, #map-location .row{
